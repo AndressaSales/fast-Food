@@ -1,10 +1,11 @@
 import React from 'react'
+import BannerHome from '../Components/BannerHome'
 
 function Home() {
     return (
-        <div>
-            Home
-        </div>
+        <>
+          <BannerHome /> 
+        </>
     )
 }
 
