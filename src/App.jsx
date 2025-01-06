@@ -4,6 +4,7 @@ import Home from "./Pages/Home"
 import Pizza from "./Pages/Pizza"
 import Hamburger from "./Pages/Hamburger"
 import Cart from "./Pages/Cart"
+import Drinks from "./Pages/Drinks"
 
 function App() {
 
@@ -23,6 +24,10 @@ function App() {
     {
       path: '/cart',
       element: <> <Navbar/> <Cart/> </>
+    },
+    {
+      path: '/drinks',
+      element: <> <Navbar/> <Drinks/> </>
     }
   ])
 

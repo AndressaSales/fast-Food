@@ -25,9 +25,9 @@ export default function Navbar(){
                     <nav className="hidden md:block">
                         <ul className="flex items-center font-semibold text-xl gap-7 text-[#fff]">
                             <Link to='/'><li>Home</li></Link>
-                            <Link to='/'><li>Pizza</li></Link>
-                            <Link to='/'><li>Hambúrguer</li></Link>
-                            <Link to='/'><li>Drinks</li></Link>
+                            <Link to='/pizza'><li>Pizza</li></Link>
+                            <Link to='/hamburguer'><li>Hambúrguer</li></Link>
+                            <Link to='/drinks'><li>Drinks</li></Link>
                         </ul>
                     </nav>
                     <Link to='/cart' className="relative w-10">
