@@ -5,29 +5,30 @@ import Pizza from "./Pages/Pizza"
 import Hamburger from "./Pages/Hamburger"
 import Cart from "./Pages/Cart"
 import Drinks from "./Pages/Drinks"
+import Footer from "./Components/Footer"
 
 function App() {
 
   const router = createBrowserRouter([
     {
       path: '/',
-      element: <> <Navbar/> <Home/> </>
+      element: <> <Navbar/> <Home/> <Footer/> </>
     },
     {
       path: '/pizza',
-      element: <> <Navbar/> <Pizza/> </>
+      element: <> <Navbar/> <Pizza/> <Footer/> </>
     },
     {
       path: '/hamburguer',
-      element: <> <Navbar/> <Hamburger/> </>
+      element: <> <Navbar/> <Hamburger/> <Footer/> </>
     },
     {
       path: '/cart',
-      element: <> <Navbar/> <Cart/> </>
+      element: <> <Navbar/> <Cart/> <Footer/> </>
     },
     {
       path: '/drinks',
-      element: <> <Navbar/> <Drinks/> </>
+      element: <> <Navbar/> <Drinks/> <Footer/> </>
     }
   ])
 
